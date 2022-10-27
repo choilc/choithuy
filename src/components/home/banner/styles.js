@@ -1,20 +1,17 @@
 import styled from "styled-components";
-
-export const Wrapper = styled.div`
-  height: calc(100vh - 56px);
-`;
+import { colors } from "../../../_principles/colors";
 
 export const Background = styled.div`
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 56px);
   background-image: url(${({ bg }) => bg});
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: #000;
-  padding-bottom: 100px;
+  justify-content: flex-end;
+  align-items: center;
+  color: ${colors.white};
+  padding-right: 200px;
 `;
 
 export const BannerText = styled.div``;
@@ -44,7 +41,7 @@ export const Name = styled.div`
     display: block;
     width: 2px;
     height: 150px;
-    background-color: #fff;
+    background-color: ${colors.white};
     position: absolute;
     top: 0;
     left: -1px;
@@ -54,7 +51,7 @@ export const Name = styled.div`
     display: block;
     width: 2px;
     height: 150px;
-    background-color: #fff;
+    background-color: ${colors.white};
     position: absolute;
     top: 0;
     right: -1px;

@@ -7,13 +7,13 @@ import {
   Description,
   Name,
   Title,
-  Wrapper,
 } from "./styles";
 import { Bg, BannerBg } from "../../../assets/images";
+import { SectionWrapper } from "../../../_principles/styles";
 
 export function Banner() {
   return (
-    <Wrapper>
+    <SectionWrapper>
       <Background bg={BannerBg}>
         <BannerText>
           <Title>Đừng quên nhé!</Title>
@@ -30,6 +30,6 @@ export function Banner() {
           </Description>
         </BannerText>
       </Background>
-    </Wrapper>
+    </SectionWrapper>
   );
 }
