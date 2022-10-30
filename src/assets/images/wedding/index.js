@@ -46,10 +46,6 @@ export const Images = [
     alt: "img3",
   },
   {
-    src: Im3,
-    alt: "img3",
-  },
-  {
     src: Im4,
     alt: "img4",
   },
