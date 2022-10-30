@@ -18,8 +18,21 @@ import Im17 from "./17.jpg";
 import Im18 from "./18.jpg";
 import Im19 from "./19.jpg";
 import Im20 from "./20.jpg";
+import Im21 from "./21.jpg";
+import Im22 from "./22.jpg";
+import Im23 from "./23.jpg";
+import Im24 from "./24.jpg";
+import Im25 from "./25.jpg";
+import Im26 from "./26.jpg";
+import Im27 from "./27.jpg";
+import Im28 from "./28.jpg";
+import Im29 from "./29.jpg";
 
 export const Images = [
+  {
+    src: Im21,
+    alt: "img21",
+  },
   {
     src: Im1,
     alt: "img1",
@@ -107,5 +120,37 @@ export const Images = [
   {
     src: Im20,
     alt: "img20",
+  },
+  {
+    src: Im22,
+    alt: "img22",
+  },
+  {
+    src: Im23,
+    alt: "img23",
+  },
+  {
+    src: Im24,
+    alt: "img24",
+  },
+  {
+    src: Im25,
+    alt: "img25",
+  },
+  {
+    src: Im26,
+    alt: "img26",
+  },
+  {
+    src: Im27,
+    alt: "img27",
+  },
+  {
+    src: Im28,
+    alt: "img28",
+  },
+  {
+    src: Im29,
+    alt: "img29",
   },
 ];

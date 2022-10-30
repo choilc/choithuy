@@ -8,7 +8,7 @@ import {
   Name,
   Title,
 } from "./styles";
-import { Bg, BannerBg } from "../../../assets/images";
+import { BannerBg } from "../../../assets/images";
 import { SectionWrapper } from "../../../_principles/styles";
 
 export function Banner() {

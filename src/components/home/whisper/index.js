@@ -30,9 +30,8 @@ export function Whisper() {
             <FeelingText>
               <Name>Tẩn Thị Thủy</Name>
               <Text>
-                Ai rồi cũng phải cưới thôi các ông ạ. Cuộc đời sống được mấy lần
-                10 năm, tại sao lại không tìm một người bên mình để cùng tận
-                hưởng cuộc sống này :))
+                Không quan trọng bạn bao nhiêu tuổi, giàu hay nghèo. Chỉ cần
+                đúng người và đủ tuổi là có thể kết hôn.
               </Text>
             </FeelingText>
           </Wife>
