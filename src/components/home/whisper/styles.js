@@ -56,6 +56,8 @@ export const Avatar = styled.div`
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 `;
 
 export const FeelingText = styled.div``;

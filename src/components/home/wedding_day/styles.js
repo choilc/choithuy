@@ -6,17 +6,17 @@ export const Background = styled.div`
   background-image: url(${({ bg }) => bg});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -160px;
+  background-position: 0 -80px;
   opacity: 0.5;
 
   @media only screen and (max-width: 992px) {
-    height: 866px;
-    background-position: 64% 0;
+    height: 860px;
+    background-position: 40% 0;
   }
 
   @media only screen and (max-width: 320px) {
-    height: 980px;
-    background-position: 64% 0;
+    height: 960px;
+    background-position: 40% 0;
   }
 `;
 
@@ -76,6 +76,10 @@ export const ValueWrapper = styled.div`
 export const Value = styled.div`
   font-size: 50px;
   width: 80px;
+  @media only screen and (max-width: 992px) {
+    font-size: 36px;
+    width: 70px;
+  }
 `;
 
 export const Text = styled.div`
