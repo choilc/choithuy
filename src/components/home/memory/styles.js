@@ -22,6 +22,10 @@ export const Heading = styled.h3`
 export const Description = styled.p`
   font-size: 24px;
   margin-bottom: 40px;
+
+  @media only screen and (max-width: 992px) {
+    padding: 0 8px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -32,6 +36,10 @@ export const ImageWrapper = styled.div`
 
   #ReactSimpleImageViewer {
     z-index: 1021;
+  }
+
+  @media only screen and (max-width: 992px) {
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   }
 `;
 
@@ -46,12 +54,19 @@ export const ImageItem = styled.div`
   border: 1px solid #ccc;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
+  @media only screen and (max-width: 992px) {
+    height: 320px;
+  }
+
   img {
     width: 100%;
     height: auto;
   }
   &:hover {
     transform: scale(1.1);
+    @media only screen and (max-width: 992px) {
+      transform: scale(1);
+    }
   }
 `;
 

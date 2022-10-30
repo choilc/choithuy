@@ -28,6 +28,10 @@ export const IconWrapper = styled.div`
   border-radius: 50%;
   position: relative;
 
+  @media only screen and (max-width: 320px) {
+    padding: 5px;
+  }
+
   &::after {
     content: "";
     display: block;
@@ -38,6 +42,9 @@ export const IconWrapper = styled.div`
     top: 80px;
     left: 50%;
     transform: translate(-50%, 0);
+    @media only screen and (max-width: 320px) {
+      top: 64px;
+    }
   }
   svg {
     width: 40px;
@@ -50,9 +57,20 @@ export const EventWrapper = styled.div`
   align-items: center;
   gap: 80px;
   margin-bottom: 80px;
+
+  @media only screen and (max-width: 992px) {
+    gap: 15px;
+  }
+
+  @media only screen and (max-width: 320px) {
+    gap: 8px;
+  }
 `;
 
 export const ScheduleWrapper = styled.div`
+  @media only screen and (max-width: 992px) {
+    padding: 0 8px;
+  }
   ${EventWrapper}:last-child {
     margin-bottom: 0;
     ${IconWrapper}::after {
@@ -66,6 +84,7 @@ export const EventLeft = styled.div`
   width: 38%;
   padding: 15px;
   border: 1px solid ${colors.black};
+
   &::after {
     content: "";
     display: block;
@@ -92,6 +111,12 @@ export const EventLeft = styled.div`
     transform: translate(0, -50%);
     right: -16px;
   }
+  @media only screen and (max-width: 320px) {
+    &::after,
+    &::before {
+      display: none;
+    }
+  }
 `;
 
 export const EventRight = styled.div`
@@ -99,6 +124,7 @@ export const EventRight = styled.div`
   width: 38%;
   padding: 15px;
   border: 1px solid ${colors.black};
+
   &::after {
     content: "";
     display: block;
@@ -125,6 +151,12 @@ export const EventRight = styled.div`
     transform: translate(0, -50%);
     left: -16px;
   }
+  @media only screen and (max-width: 320px) {
+    &::after,
+    &::before {
+      display: none;
+    }
+  }
 `;
 
 export const EventEmpty = styled.div`
@@ -134,6 +166,10 @@ export const EventEmpty = styled.div`
 export const EventText = styled.div`
   font-size: 20px;
   font-weight: bold;
+
+  @media only screen and (max-width: 320px) {
+    font-size: 16px;
+  }
 `;
 
 export const EventTime = styled.div``;

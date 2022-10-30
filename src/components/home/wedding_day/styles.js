@@ -8,6 +8,16 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-position: 0 -160px;
   opacity: 0.5;
+
+  @media only screen and (max-width: 992px) {
+    height: 866px;
+    background-position: 64% 0;
+  }
+
+  @media only screen and (max-width: 320px) {
+    height: 980px;
+    background-position: 64% 0;
+  }
 `;
 
 export const BannerText = styled.div`
@@ -41,6 +51,9 @@ export const CountdownWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media only screen and (max-width: 992px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const SubText = styled.div`
@@ -50,6 +63,10 @@ export const SubText = styled.div`
 export const CountdownText = styled.div`
   display: flex;
   gap: 30px;
+  @media only screen and (max-width: 992px) {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 `;
 
 export const ValueWrapper = styled.div`

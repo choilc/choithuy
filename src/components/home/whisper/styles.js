@@ -22,6 +22,11 @@ export const Feeling = styled.div`
   justify-content: center;
   align-items: center;
   gap: 40px;
+
+  @media only screen and (max-width: 992px) {
+    flex-wrap: wrap;
+    padding: 0 8px;
+  }
 `;
 
 const WifeHusband = styled.div`

@@ -8,6 +8,9 @@ export const Wrapper = styled.div`
 export const Text = styled.div`
   text-align: center;
   font-size: 24px;
+  @media only screen and (max-width: 992px) {
+    font-size: 20px;
+  }
 `;
 
 export const ThanksText = styled.div`
@@ -19,6 +22,9 @@ export const ThanksText = styled.div`
 export const QrWrapper = styled.div`
   width: 400px;
   margin: 0 auto;
+  @media only screen and (max-width: 992px) {
+    width: 100%;
+  }
 `;
 
 export const Image = styled.img`

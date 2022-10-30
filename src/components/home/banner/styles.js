@@ -12,6 +12,15 @@ export const Background = styled.div`
   align-items: center;
   color: ${colors.white};
   padding-right: 200px;
+
+  @media only screen and (max-width: 992px) {
+    background-position-x: 40%;
+    padding-right: 0;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 40px;
+    color: ${colors.black};
+  }
 `;
 
 export const BannerText = styled.div``;

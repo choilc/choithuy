@@ -1,3 +1,4 @@
 body {
   font-family: "Dancing Script", cursive !important;
+  overflow-x: hidden;
 }
