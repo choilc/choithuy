@@ -33,11 +33,11 @@ function ImagesComponent() {
   return (
     <MainWrapper>
       <Wrapper className="container">
-        <Heading>Kỷ niệm của bọn tớ</Heading>
+        <Heading>Kỷ niệm của chúng tớ</Heading>
         <Description>
           Kỷ niệm không bao giờ có lần hai. Đây là những hình ảnh lưu lại trước
-          khi bọn tớ về chung một nhà. Những khoảnh khắc mà bọn tớ sẽ mãi trân
-          quý, rất đáng giá và trọn vẹn!
+          khi chúng tớ về chung một nhà. Những khoảnh khắc mà chúng tớ sẽ mãi
+          trân quý, rất đáng giá và trọn vẹn!
         </Description>
         <ImageWrapper>
           {Images.map((img, i) => (
