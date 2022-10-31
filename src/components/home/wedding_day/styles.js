@@ -7,7 +7,7 @@ export const Background = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 -80px;
-  opacity: 0.5;
+  opacity: 0.4;
 
   @media only screen and (max-width: 992px) {
     height: 860px;

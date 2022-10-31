@@ -18,14 +18,22 @@ export const SubTitle = styled.h4`
 `;
 
 export const Feeling = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: calc(50% - 15px - 20px) 30px calc(50% - 15px - 20px);
   justify-content: center;
   align-items: center;
   gap: 40px;
 
   @media only screen and (max-width: 992px) {
     flex-wrap: wrap;
+    grid-template-columns: 100%;
     padding: 0 8px;
+
+    & > div {
+      &:nth-child(2) {
+        text-align: center;
+      }
+    }
   }
 `;
 
@@ -71,6 +79,7 @@ export const Image = styled.img`
 `;
 
 export const Heart = styled.div`
+  color: ${colors.main};
   svg {
     width: 30px;
     height: 30px;
