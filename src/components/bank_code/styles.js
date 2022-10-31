@@ -20,15 +20,18 @@ export const ThanksText = styled.div`
 `;
 
 export const QrWrapper = styled.div`
-  width: 400px;
-  margin: 0 auto;
-  @media only screen and (max-width: 992px) {
-    width: 100%;
-  }
-`;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 
-export const Image = styled.img`
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  @media only screen and (max-width: 992px) {
+    grid-template-columns: 100%;
+  }
 `;

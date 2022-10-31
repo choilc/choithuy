@@ -48,6 +48,13 @@ function Header() {
             >
               Bản đồ
             </a>
+            <Link
+              className="nav-link"
+              to="/bank_code"
+              style={{ color: colors.main }}
+            >
+              Chúc mừng chúng tớ
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Wrapper>
