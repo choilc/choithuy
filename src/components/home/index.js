@@ -19,7 +19,7 @@ function Home() {
       <WeddingDay />
       <Schedule />
       <Memory />
-      <QrCode />
+      {/* <QrCode /> */}
     </MainWrapper>
   );
 }
