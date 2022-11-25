@@ -30,8 +30,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/images" element={<ImagesComponent />} />
-        <Route path="/google_sheet" element={<GoogleSheet />} />
-        <Route path="/bank_code" element={<BankCode />} />
+        {/* <Route path="/google_sheet" element={<GoogleSheet />} />
+        <Route path="/bank_code" element={<BankCode />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>

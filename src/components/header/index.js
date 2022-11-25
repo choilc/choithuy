@@ -32,7 +32,7 @@ function Header() {
             >
               Ảnh
             </Link>
-            <Link
+            {/* <Link
               className="nav-link"
               to="/google_sheet"
               style={{ color: colors.main }}
@@ -54,7 +54,7 @@ function Header() {
               style={{ color: colors.main }}
             >
               Chúc mừng chúng tớ
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Wrapper>
